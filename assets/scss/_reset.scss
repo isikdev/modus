@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%; /* Для корректного отображения на мобильных устройствах */
+    -ms-text-size-adjust: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+figure,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Для мобильных */
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+button {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+form {
+    margin: 0;
+}
+
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+iframe {
+    border: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+details,
+summary {
+    display: block;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+}
+
+p {
+    font-size: 1rem;
+}
+
+q {
+    quotes: none;
+}
+
+q::before,
+q::after {
+    content: "";
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: inherit;
+    opacity: 0.5;
+}
+
+svg {
+    fill: currentColor;
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
